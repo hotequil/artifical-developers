@@ -1,0 +1,12 @@
+.logo__link__svg{
+    width: 72px;
+    min-width: 72px;
+    max-width: 72px;
+    height: 72px;
+    min-height: 72px;
+    max-height: 72px;
+    background-image: url("../../../images/white-logo.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

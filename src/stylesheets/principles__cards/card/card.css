@@ -1,0 +1,32 @@
+.card{
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+    background-color: #fefefe;
+    transition: box-shadow .25s, width .25s, height .25s;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card:not(:last-child){
+    margin-bottom: 2rem;
+}
+
+.card:hover, .card:focus, .card:active{
+    width: 100%;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+}
+
+@media (max-width: 700px){
+    .card{
+        flex-direction: column;
+    }
+}

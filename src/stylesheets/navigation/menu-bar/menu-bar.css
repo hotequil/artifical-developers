@@ -1,0 +1,32 @@
+.menu-bar{
+    height: inherit;
+}
+
+.menu-bar--mobile{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .menu-bar{
+        display: none;
+    }
+
+    .menu-bar--mobile{
+        transform: scaleY(0);
+        transform-origin: top;
+        display: block;
+        overflow: hidden;
+        max-height: 0;
+        transition: transform .25s, max-height .25s;
+        background-color: #1b1b1b;
+        box-shadow: 0 4px 5px -2px rgba(0,0,0,.2), 0 7px 10px 1px rgba(0,0,0,.14), 0 2px 16px 1px rgba(0,0,0,.12);
+        position: relative;
+        top: -1px;
+        z-index: 1;
+    }
+
+    .menu-bar--mobile.in{
+        max-height: 240px;
+        transform: scaleY(1);
+    }
+}

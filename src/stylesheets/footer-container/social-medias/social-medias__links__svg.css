@@ -1,0 +1,16 @@
+.social-medias__links__svg{
+    width: 20px;
+    max-width: 20px;
+    min-width: 20px;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
+}
+
+.social-medias__links__svg path{
+    transition: fill .25s;
+}
+
+.social-medias__links__svg:hover path, .social-medias__links__svg:focus path, .social-medias__links__svg:active path{
+    fill: #00aef6;
+}

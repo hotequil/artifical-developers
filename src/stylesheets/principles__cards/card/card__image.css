@@ -1,0 +1,32 @@
+.card__image{
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    margin-right: 1.5rem;
+    transform: scaleX(-1);
+}
+
+.card__image--one{
+    background-image: url("../../../images/laptop.svg");
+}
+
+.card__image--two{
+    background-image: url("../../../images/server.svg");
+}
+
+.card__image--three{
+    background-image: url("../../../images/old.svg");
+}
+
+@media (max-width: 700px){
+    .card__image{
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+}

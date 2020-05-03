@@ -1,0 +1,8 @@
+.image__svg{
+    width: 300px;
+    height: 400px;
+    background-image: url(../../../images/tv.svg);
+    background-position: left;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}

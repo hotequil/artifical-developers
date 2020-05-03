@@ -1,0 +1,9 @@
+.social-medias{
+    padding-top: 18px;
+}
+
+@media (max-width: 800px){
+    .social-medias{
+        display: none;
+    }
+}

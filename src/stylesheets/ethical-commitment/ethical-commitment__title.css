@@ -1,0 +1,9 @@
+.ethical-commitment__title{
+    color: #fefefe;
+}
+
+@media (max-width: 400px){
+    .ethical-commitment__title{
+        word-break: break-word;
+    }
+}

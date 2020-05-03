@@ -1,0 +1,21 @@
+.presentation__link{
+    text-decoration: none;
+    color: #1b1b1b;
+    text-transform: uppercase;
+   letter-spacing: 1px;
+    border-bottom: 1px solid #1b1b1b;
+    box-sizing: border-box;
+    transition: padding .15s, border .15s, color .25s;
+    transition-timing-function: ease-in;
+}
+
+.presentation__link:hover{
+    padding-bottom: 2px;
+    color: #00aef6;
+    border-color: #00aef6;
+}
+
+.presentation__link--white{
+    color: #fefefe;
+    border-bottom-color: #fefefe;
+}

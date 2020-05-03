@@ -1,0 +1,9 @@
+.footer-container__copyright__container{
+    margin-left: 1rem;
+}
+
+@media (max-width: 700px){
+    .footer-container__copyright__container{
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,7 @@
+.principles__cards{
+    position: relative;
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

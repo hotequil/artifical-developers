@@ -1,0 +1,11 @@
+.footer-container__copyright{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 700px){
+    .footer-container__copyright{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

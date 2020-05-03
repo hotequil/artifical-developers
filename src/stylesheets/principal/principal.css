@@ -1,0 +1,14 @@
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 4rem 4rem 8rem 4rem;
+}
+
+@media (max-width: 600px){
+    .principal{
+        padding: 4rem 1.5rem 8rem 1.5rem;
+    }
+}

@@ -1,0 +1,14 @@
+.trail-card{
+    display: flex;
+    align-items: center;
+}
+
+.trail-card:not(:last-child){
+    margin-bottom: 6rem;
+}
+
+@media (max-width: 700px){
+    .trail-card:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}

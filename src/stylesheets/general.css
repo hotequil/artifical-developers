@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: Staatliches;
+    src: url("../fonts/Staatliches/Staatliches-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Archivo Narrow';
+    src: url("../fonts/Archivo_Narrow/ArchivoNarrow-Regular.ttf") format('truetype');
+}
+
+::selection{
+    background: #424242;
+    color: #fefefe;
+}
+
+*:focus{
+    outline-color: #00aef6;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans';
+    color: #424242;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    line-height: 1.40;
+}
+
+footer{
+    background-color: #1b1b1b;
+}
+
+main{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+h5{
+     font-size: 1.5rem;
+ }
+
+h6{
+    font-size: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    line-height: 1;
+    font-family: 'Staatliches';
+    color: #1b1b1b;
+}
+
+header{
+    background-color: #fefefe;
+    position: relative;
+}
+
+header::after{
+    content: '';
+    height: 4rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to top, #f5f5f5 50%, #fefefe 100%);
+}
+
+@media (max-width: 600px){
+    main{
+        padding: 0 1.5rem;
+    }
+
+    h1{
+        font-size: 3.75rem;
+    }
+    
+    h2{
+        font-size: 2.75rem;
+    }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    h4{
+        font-size: 1.5rem;
+    }
+    
+    h5{
+         font-size: 1.15rem;
+     }
+    
+    h6{
+        font-size: 1rem;
+    }
+}

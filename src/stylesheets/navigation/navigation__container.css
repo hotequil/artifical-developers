@@ -1,0 +1,16 @@
+.navigation__container{
+    width: inherit;
+    max-width: 2200px;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px){
+    .navigation__container{
+        padding: 0 1.5rem;
+    }
+}

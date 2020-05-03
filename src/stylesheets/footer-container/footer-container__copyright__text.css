@@ -1,0 +1,9 @@
+.footer-container__copyright__container__text{
+    color: #fefefe;
+}
+
+@media (max-width: 700px){
+    .footer-container__copyright__container__text{
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+.ethical-commitment{
+    padding: 4rem;
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    .ethical-commitment{
+        padding: 2rem;
+    }
+}

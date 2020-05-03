@@ -1,0 +1,5 @@
+@media (max-width: 400px){
+    .presentation__title{
+        word-break: break-word;
+    }
+}
