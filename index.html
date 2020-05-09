@@ -64,13 +64,20 @@
         <link rel="stylesheet" href="src/stylesheets/footer-container/footer-container__copyright__text.css">
         <link rel="stylesheet" href="src/stylesheets/accessibility-bar/accessibility-bar.css">
         <link rel="stylesheet" href="src/stylesheets/accessibility-bar/accessibility-bar__button.css">
+        <link rel="stylesheet" href="src/stylesheets/accessibility-bar/accessibility-bar__button__image.css">
     </head>
     <body>
         <header id="home">
             <div class="accessibility-bar">
-                <button type="button" tabindex="0" aria-labelledby="Botão para deixara a página com fonte maior" class="accessibility-bar__button accessibility-bar__button--font">A+</button>
-                <button type="button" tabindex="0" aria-labelledby="Botão para deixara a página com fonte menor" class="accessibility-bar__button accessibility-bar__button--font">A-</button>
-                <a tabindex="0" aria-labelledby="Botão para deixara a página com contraste" href="/" class="accessibility-bar__button accessibility-bar__button--contrast">Alto contraste</a>
+                <button title="Aumentar a fonte da página" type="button" tabindex="0" aria-labelledby="Aumentar a fonte da página" class="accessibility-bar__button accessibility-bar__button--font">
+                    A+
+                    <img class="accessibility-bar__button__image" src="src/images/letter.svg" alt="Ícone da tipografia de uma fonte maior">
+                </button>
+                <button title="Diminuir a fonte da página" type="button" aria-labelledby="Diminuir a fonte da página" tabindex="0" class="accessibility-bar__button accessibility-bar__button--font">
+                    A-
+                    <img class="accessibility-bar__button__image" src="src/images/interface.svg" alt="Ícone da tipografia de uma fonte menor">
+                </button>
+                <a tabindex="0" role="button" aria-labelledby="Colocar ou retirar alto contraste na página" href="/" class="accessibility-bar__button accessibility-bar__button--contrast">Alto contraste</a>
             </div>
             <nav class="navigation">
                 <div class="navigation__container">
