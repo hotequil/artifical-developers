@@ -117,4 +117,8 @@ header::after{
     h6{
         font-size: 1em;
     }
+
+    *{
+        outline: 0;
+    }
 }

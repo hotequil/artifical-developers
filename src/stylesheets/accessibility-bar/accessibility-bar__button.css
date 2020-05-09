@@ -7,7 +7,7 @@
 
 .accessibility-bar__button--font{
     color: #1b1b1b;
-    padding: .25rem;
+    padding: .5rem;
     border: 1px solid #ddd;
     border-radius: 50%;
     background-color: #fefefe;
@@ -37,6 +37,7 @@
 }
 
 .accessibility-bar__button--contrast{
+    font-size: 1.25rem;
     color: #fefefe;
     text-decoration: none;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
