@@ -3,12 +3,13 @@ $('a[href^="#"]').on('click', function(e) {
 
     let id = $(this).attr('href'), targetOffset = $(id).offset().top;
 
+    $('.menu-bar--mobile').removeClass('in');
+    $('.menu-hamburguer').removeClass('open');
+    
     $('html, body').animate({
-        scrollTop: targetOffset - 50
+        scrollTop: targetOffset - 382
     }, 750);
 
     setTimeout(function(){
-        $('.menu-bar--mobile').removeClass('in');
-        $('.menu-hamburguer').removeClass('open');
     }, 1000);
 });
