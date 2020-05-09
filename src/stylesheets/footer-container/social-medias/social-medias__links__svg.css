@@ -14,3 +14,7 @@
 .social-medias__links__svg:hover path, .social-medias__links__svg:focus path, .social-medias__links__svg:active path{
     fill: #0091ea;
 }
+
+a:hover .social-medias__links__svg path, a:focus .social-medias__links__svg path, a:active .social-medias__links__svg path{
+    fill: #0091ea;
+}

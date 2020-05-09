@@ -11,5 +11,10 @@ $('a[href^="#"]').on('click', function(e) {
     }, 750);
 
     setTimeout(function(){
-    }, 1000);
+        if($(id).find('h2').length){
+            $(id).find('h2').focus();
+        } else{
+            $('.presentation__title').focus();
+        };
+    }, 750);
 });
