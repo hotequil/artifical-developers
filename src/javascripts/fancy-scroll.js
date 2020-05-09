@@ -5,9 +5,9 @@ $('a[href^="#"]').on('click', function(e) {
 
     $('.menu-bar--mobile').removeClass('in');
     $('.menu-hamburguer').removeClass('open');
-    
+
     $('html, body').animate({
-        scrollTop: targetOffset - 382
+        scrollTop: targetOffset - 352
     }, 750);
 
     setTimeout(function(){
