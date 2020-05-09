@@ -1,9 +1,12 @@
-$('a[href^="#"]').on('click', function(e) {
+let listItems = ['.list__item', '.list__item--mobile'];
+
+$(listItems.toString()).on('click', function(e) {
     e.preventDefault();
 
-    let id = $(this).attr('href'), targetOffset = $(id).offset().top;
+    listItems.forEach(function(item){
+        $(item).removeClass('list__item--active');
+        $(item).removeClass('list__item--active--mobile');
+    });
 
-    $('html, body').animate({
-        scrollTop: targetOffset - 50
-    }, 750);
+    this.classList.add('list__item--active', 'list__item--active--mobile');
 });

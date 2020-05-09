@@ -19,3 +19,7 @@
     color: #fefefe;
     border-bottom-color: #fefefe;
 }
+
+.presentation__link.presentation__link--read-more{
+    font-size: .85rem;
+}

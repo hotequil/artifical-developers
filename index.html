@@ -64,8 +64,7 @@
         <link rel="stylesheet" href="src/stylesheets/footer-container/footer-container__copyright__text.css">
     </head>
     <body>
-
-        <header>
+        <header id="home">
             <nav class="navigation">
                 <div class="navigation__container">
                     <div class="logo">
@@ -76,10 +75,11 @@
                     </div>
                     <div class="menu-bar">
                         <ul class="list">
-                            <li class="list__item list__item--active"><a class="list__item__link" href="/">Home</a></li>
-                            <li class="list__item"><a class="list__item__link" href="/">Products</a></li>
-                            <li class="list__item"><a class="list__item__link" href="/">Services</a></li>
-                            <li class="list__item"><a class="list__item__link" href="/">Contact</a></li>
+                            <li class="list__item list__item--active"><a class="list__item__link" href="#home">Home</a></li>
+                            <li class="list__item"><a class="list__item__link" href="#principles">Principles</a></li>
+                            <li class="list__item"><a class="list__item__link" href="#ethical-commitment">Commitment to ethics</a></li>
+                            <li class="list__item"><a class="list__item__link" href="#what-we-do">What we do</a></li>
+                            <li class="list__item"><a class="list__item__link" href="#our-clients">Our clients</a></li>
                         </ul>
                     </div>
                     <div class="menu-hamburguer">
@@ -91,25 +91,26 @@
             </nav>
             <div class="menu-bar--mobile">
                 <ul class="list--mobile">
-                    <li class="list__item--mobile list__item--active--mobile"><a class="list__item__link--mobile" href="/">Home</a></li>
-                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="/">Products</a></li>
-                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="/">Services</a></li>
-                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="/">Contact</a></li>
+                    <li class="list__item--mobile list__item--active--mobile"><a class="list__item__link--mobile" href="#home">Home</a></li>
+                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="#principles">Principles</a></li>
+                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="#ethical-commitment">Commitment to ethics</a></li>
+                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="#what-we-do">What we do</a></li>
+                    <li class="list__item--mobile"><a class="list__item__link--mobile" href="#our-clients">Our clients</a></li>
                 </ul>
             </div>
             <div class="principal">
                 <div class="presentation">
                     <h1 class="presentation__title">Artifical Developers</h1>
                     <p class="presentation__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus molestie nunc non blandit massa enim nec. Sed faucibus turpis in eu mi bibendum neque egestas congue.</p>
-                    <a href="/" class="presentation__link">Go to contents</a>
+                    <a href="#contents" class="presentation__link">Go to contents</a>
                 </div>
                 <div class="image">
                     <div class="image__svg"></div>
                 </div>
             </div>
         </header>
-        <main>
-            <section class="section">
+        <main id="contents">
+            <section class="section" id="principles">
                 <div class="section__presentation">
                     <h2 class="section__title">Principles</h2>
                     <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -138,13 +139,13 @@
                     </div>
                 </div>
             </section>
-            <section class="section section--black">
+            <section class="section section--black" id="ethical-commitment">
                 <div class="section__presentation ethical-commitment">
                     <h2 class="section__title ethical-commitment__title">Commitment to ethics</h2>
                     <p class="section__text ethical-commitment__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus molestie nunc non blandit massa enim nec. Sed faucibus turpis in eu mi bibendum neque egestas congue. Sit amet venenatis urna cursus eget nunc scelerisque viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus molestie nunc non blandit massa enim nec. Sed faucibus turpis in eu mi bibendum neque egestas congue. Sit amet venenatis urna cursus eget nunc scelerisque viverra.</p>
                 </div>
             </section>
-            <section class="section">
+            <section class="section" id="what-we-do">
                 <div class="section__presentation">
                     <h2 class="section__title">What we do</h2>
                     <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -176,9 +177,9 @@
                     </div>
                 </div>
             </section>
-            <section class="section">
+            <section class="section" id="our-clients">
                 <div class="section__presentation">
-                    <h2 class="section__title">Our clients</h2>
+                    <h2 class="section__title" tabindex="0">Our clients</h2>
                     <p class="section__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div class="our-clients">
@@ -239,6 +240,8 @@
         </footer>
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="src/javascripts/menu-hamburguer.js"></script>
+        <script src="src/javascripts/menu-control.js"></script>
         <script src="src/javascripts/minify-texts.js"></script>
+        <script src="src/javascripts/fancy-scroll.js"></script>
     </body>
 </html>

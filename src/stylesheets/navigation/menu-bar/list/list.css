@@ -3,7 +3,7 @@
     height: inherit;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
     .list--mobile{
         display: flex;
         flex-direction: column;
