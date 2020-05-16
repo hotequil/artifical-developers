@@ -18,7 +18,7 @@
     color: #fefefe;
 }
 
-*:focus{
+*{
     outline-color: #0091ea !important;
 }
 
