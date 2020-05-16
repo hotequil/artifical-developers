@@ -18,8 +18,10 @@
     color: #fefefe;
 }
 
-*{
-    outline-color: #0091ea !important;
+*:focus{
+    outline: 5px auto #0091ea !important;
+    -moz-outline: 5px auto #0091ea !important;
+    -webkit-outline: 5px auto #0091ea !important;
 }
 
 body{
