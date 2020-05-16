@@ -19,7 +19,7 @@
 }
 
 *:focus{
-    outline-color: #0091ea;
+    outline-color: #0091ea !important;
 }
 
 body{
