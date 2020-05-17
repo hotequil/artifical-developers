@@ -123,8 +123,10 @@ header::after{
         font-size: 1em;
     }
 
-    *{
-        outline: 0;
+    *:focus{
+        outline: 0 !important;
+        -moz-outline: 0 !important;
+        -webkit-outline: 0 !important;
     }
 }
 
