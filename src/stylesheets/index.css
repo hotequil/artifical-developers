@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 a,
 abbr,
 acronym,
@@ -349,8 +356,8 @@ header::after {
     width: 100%;
     position: absolute;
     bottom: 0;
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #f5f5f5), to(#fefefe));
     background-image: -o-linear-gradient(bottom, #f5f5f5 50%, #fefefe 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #f5f5f5), to(#fefefe));
     background-image: linear-gradient(to top, #f5f5f5 50%, #fefefe 100%);
 }
 .high-contrast {
