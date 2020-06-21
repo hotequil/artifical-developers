@@ -65,7 +65,7 @@ $('a[href^="#"]').on('click', function (e) {
     $('.menu-bar--mobile').removeClass('in');
     $('.menu-hamburguer').removeClass('open');
     $('html, body').animate({
-        scrollTop: targetOffset - 332
+        scrollTop: targetOffset - 50
     }, 750);
     setTimeout(function () {
         if ($(id).find('h2').length) {

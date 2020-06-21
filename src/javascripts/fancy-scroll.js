@@ -7,7 +7,7 @@ $('a[href^="#"]').on('click', function(e) {
     $('.menu-hamburguer').removeClass('open');
 
     $('html, body').animate({
-        scrollTop: targetOffset - 332
+        scrollTop: targetOffset - 50
     }, 750);
 
     setTimeout(function(){
